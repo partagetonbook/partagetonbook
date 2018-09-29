@@ -1,0 +1,134 @@
+.nav {
+  display: flex;
+  padding-top: 1em;
+  width: 912px;
+  height: 129px;
+  position: fixed;
+  background-color: $background-body;
+  border-radius: 0 0 0 1em;
+  z-index: 10;
+  border-bottom: 0.3em solid $orange;
+
+&__logo {
+  display: flex;
+  margin-left: 0.2em;
+}
+&__logo__text {
+  font-family: $font-family-script;
+  width: 280px;
+  margin-left: 0.6em;
+  font-size: $text-head;
+  text-align: center;
+}
+}
+select {
+    padding: 6px;
+    border: 0.2em solid $orange;
+    border-radius: 4px;
+    margin-left: -10em;
+    font-weight: bold;
+    font-family: $font-family;
+}
+.espace {
+    padding: 0.5em 0.5em;
+    border: 0.2em solid #EC6608;
+    border-radius: 4px;
+    margin: -0.5em 0 0 -10.1em;
+    font-weight: bold;
+    font-family: "Karma", serif;
+&:hover {
+  color: black;
+  background-color: $background-body;
+}
+}
+
+// --------------------- Navigation
+
+.nav__link {
+  position: fixed;
+  justify-content: flex-end;
+  margin: 6em 0 0 26.3em;
+  // background-color: $background-body;
+  z-index: 10;
+
+&__accueil {
+    border: 0.2em solid $orange;
+    padding: 0.5em 2.1em;
+    border-bottom: none;
+    background-color: white;
+    border-radius: 0.5em 0 0 0;
+    // box-shadow: -1px -1px 2px 1px grey;
+    transition: 0.4s;
+  }
+
+&__auteurs {
+    border: 0.2em solid $orange;
+    padding: 0.5em 2.1em;
+    border-bottom: none;
+    background-color: white;
+    // box-shadow: -1px -1px 2px 1px grey;
+    transition: 0.4s;
+}
+
+&__livres {
+    border: 0.2em solid $orange;
+    border-bottom: none;
+    padding: 0.3em 2em;
+    padding: 0.5em 1.5em;
+    background-color: white;
+    // box-shadow: 1px -1px 1px 1px grey;
+    transition: 0.4s;
+    border-radius: 0  0.5em 0 0;
+}
+:hover {
+  background-color: $orange;
+  color: white;
+}
+}
+
+.navigation {
+  display: flex;
+  margin-left: 0.9em;
+  padding-left: 0;
+
+&__li {
+  list-style: none;
+}
+a {
+  color: black;
+}
+}
+.nav__button {
+  display: flex;
+    height: 30px;
+    margin: 0 0 0 -2em;
+    transition: 0.5s;
+    width: 30em;
+}
+
+.menu-item-object-page li {
+    background-color: $orange;
+    list-style-type: none;
+    border-radius: 2em;
+    transition: 0.7s;
+    padding: 0.1em 0.1em;
+    margin-right: 1.5em;
+&:hover {
+  border-radius: none;
+  color:white;
+  border: 0.2em solid white;
+  }
+a {
+  color: white;
+  padding: 0.3em 1.2em;
+
+  }
+  }
+
+.current-user {
+  display: none;
+}
+
+#menu-menu-principal-du-theme {
+  display: flex;
+}

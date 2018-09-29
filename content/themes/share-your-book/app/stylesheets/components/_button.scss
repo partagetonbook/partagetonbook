@@ -1,0 +1,99 @@
+p.user {
+  box-sizing: border-box;
+  color: $orange;
+  font-weight: bold;
+  width: 10em;
+  text-align: center;
+  margin: 0em 0em 0em 0.1em;
+}
+
+.nav__button {
+  display: flex;
+  height: 30px;
+  margin: 0 0 0 -2em;
+  transition: 0.5s;
+  width: 30em;
+
+&__inscr {
+  width: 100px;
+  background-color: $orange;
+  border: none;
+  margin-right: 1em;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 1em;
+  padding: 0.2em 0.8em;
+  list-style: none;
+  transition: 0.8s;
+a {
+  color: white;
+}
+&:hover {
+  border: 0.1em solid white;
+  border-radius: 2em;
+  }
+}
+}
+
+.logout {
+  margin: auto;
+  padding: 0.1em 1em;
+  margin: 0 1em;
+  color: white;
+  background-color: $orange;
+  border-radius: 2em;
+  transition: 0.8s;
+&:hover {
+  margin: auto;
+  padding: 0.1em 1em;
+  margin: 0 1em;
+  color: white;
+  background-color: grey;
+  border: 0.1em solid white;
+  border-radius: 2em;
+  }
+}
+
+
+
+.nav__button__search {
+    font-family: FontAwesome;
+    padding: 0 1em;
+    border-radius: 1em;
+    height: 2em;
+    transition: 0.5s;
+&:hover {
+    border: 0.2em solid grey;
+}
+}
+
+
+.menu-item-object-page li {
+    background-color: $orange;
+    list-style-type: none;
+    border-radius: 2em;
+    transition: 0.7s;
+    padding: 0.1em 0.1em;
+    margin-right: 1.5em;
+
+&:hover {
+  border-radius: none;
+  color:white;
+  border: 0.2em solid white;
+  }
+a {
+  color: white;
+  padding: 0.3em 1.2em;
+
+  }
+  }
+
+.current-user {
+  display: none;
+}
+
+#menu-inscription {
+  display: flex;
+  padding-left: 10px;
+
+}

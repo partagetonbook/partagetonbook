@@ -1,0 +1,219 @@
+ <!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Share Your Book</title>
+   <link rel="stylesheet" href="css/vendors.css">
+  <link rel="stylesheet" href="css/app.css">
+  <link href="https://fonts.googleapis.com/css?family=Karma:400,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700" rel="stylesheet">
+
+</head>
+    <body id="accueil" >
+
+        <main class="main">
+
+                <nav class="nav">
+                    <nav class="nav__logo">
+                         <img class="nav__logo__img" src="images/logo.png" alt="logo share your book">
+                        <p class="nav__logo__text">" Tout seul on va vite, à deux on va loin. " </p>
+                    </nav>
+
+                    <ul class="nav__button">
+                        <p class="user"> Bonjour Cherif</p>
+                        <p class="button__nav">
+                             <li class="nav__button__inscr"><a href="#inscription" class="lien__inscr" type="button" name="button">Inscription</a></li>
+                            <li class="nav__button__inscr"><a  href="#connexion" class="lien__inscr" type="button" name="button">Connexion</a></li>
+                        </p>
+
+                        <input class="nav__button__search" type="search"  placeholder="&#xF002; recherche">
+                    </ul>
+                </nav>
+
+                    <nav class="nav__link">
+
+<!-- Apparition au clic du menu  déroulant apres connexion -->
+<ul class="navigation">
+
+    <select class="espace" name="espace">
+      <option class="nav__link__accueil" value="espace">Mon espace</option>
+      <option class="nav__link__auteurs" value="dons">Mes dons</option>
+      <option class="nav__link__livres" value="auteurs">Mes auteurs</option>
+      <option class="nav__link__param" value="parametres">Mes paramètres</option>
+    </select>
+
+                        <li class="navigation__li"><a href="#accueil" class="nav__link__accueil">Accueil</a></li>
+                        <li class="navigation__li"><a href="#auteurs" class="nav__link__auteurs">Auteurs</a></li>
+                        <li class="navigation__li"><a href="#livres" class="nav__link__livres">Livres disponibles</a></li>
+                    </nav>
+</ul>
+
+        <section class="section">
+            <h1 class="section__h1">  " Dans la vie, les choses qui ont le plus de valeur sont celles qui n'ont pas de prix. " Guillaume M.</h1>
+
+                <article class="article">
+                    <img class="article__img" src="images/le jour où.jpg" alt="photo de livre">
+                        <div class="article__descriptif">
+
+                            <h2   id="livres"  class="article__title">Le jour où j'ai appris à vivre</h2>
+                            <h2 class="article__auteur"> Laurent Gounelle</h2>
+                            <p class="article__text">Et si tout commençait aujourd'hui ?
+                            Imaginez : vous vous baladez sur les quais de San Francisco un dimanche, quand soudain une bohémienne vous saisit la main pour y lire votre avenir. Amusé, vous vous laissez faire. Ce qu’elle va finalement vous dire… vous auriez préféré ne pas l’entendre. À partir de là, rien ne sera plus comme avant...</p>
+                        </div>
+                </article>
+
+                <article class="don">
+
+                    <img class="article__img" src="images/gift.png" alt="photo don">
+
+                    <div class="article__descriptif">
+                        <h2 class="don__title">La fille de papier</h2>
+                        <h2 class="article__auteur">Guillaume Musso</h2>
+                        <p>Tom Boyd, un écrivain célèbre en panne d¹inspiration, voit surgir dans sa vie l’héroïne de ses romans. Elle est jolie, elle est désespérée, elle va mourir s’il s’arrête d’écrire. Impossible ? </p>
+                        <p class="don__text"> Je donne - Sans rien en échange</p>
+                    </div>
+                        <img class="don__img" src="images/la fille.jpg" alt="photo de livre">
+                </article>
+
+                <article class="article">
+                    <img class="article__img" src="images/les etoiles.jpg" alt="photo de livre">
+
+                        <div class="article__descriptif">
+                            <h2 class="article__title">Vouloir toucher les étoiles</h2>
+                            <h2 class="article__auteur">Mike Horn</h2>
+    <div  id="inscription"></div>
+                            <p class="article__text">« On ne grimpe qu’une fois la montagne de la vie. Il faut savoir faire un pas de côté, vivre ses rêves, ne pas se laisser emprisonner. L’homme ne doit jamais se sentir plus grand que la vie. Chaque jour, je le répète à mes filles : en gardant les pieds sur terre, on peut toucher les étoiles. »</p>
+                        </div>
+                </article>
+<!-- inscription -->
+
+            <div class="suscribe">
+                <h3 class="suscribe__title">Inscrivez-vous</h3>
+
+                <form class="suscribe__form" action="index.html" method="post">
+
+                    <div class="suscribe__input">
+                        <label class="suscribe__text">Nom</label>
+                        <input class="suscribe__zone" type="text">
+                    </div>
+
+                    <div class="suscribe__input">
+                        <label class="suscribe__text">Prénom</label>
+                        <input class="suscribe__zone" type="text">
+                    </div>
+
+                    <div class="suscribe__input">
+                        <label class="suscribe__text">Mon pseudo</label>
+                        <input class="suscribe__zone" type="text">
+                    </div>
+
+                    <div class="suscribe__input">
+                        <label class="suscribe__text">E-mail</label>
+                        <input class="suscribe__zone" type="email">
+                    </div>
+
+                    <div class="suscribe__mdp">
+                        <label class="suscribe__text">Mot de passe</label>
+                        <input class="suscribe__zone" type="password">
+                    </div>
+
+                    <div class="suscribe__input">
+                        <label class="suscribe__text">Confirmation de mot de passe</label>
+                        <input class="suscribe__zone" type="password">
+                    </div>
+
+                    <div class="suscribe__input">
+                        <label class="suscribe__text">N° de télephone</label>
+                        <input class="suscribe__zone" type="number">
+                    </div>
+<div id="connexion"></div>
+
+                    <div class="suscribe__input">
+                        <label class="suscribe__text">Mon adresse postale</label>
+                        <textarea class="suscribe__area" name="name" rows="4" cols="80"></textarea>
+                    </div>
+
+
+                </form>
+                        <div class="suscribe__button">
+                            <button class="suscribe__button__valider" type="button" name="button">Valider</button>
+                            <button class="suscribe__button__annuler" type="button" name="button">Annuler</button>
+                        </div>
+
+            </div>
+
+<!-- fin -->
+    <div class="connexion">
+                    <div class="form__logo">
+                        <!-- <img class="form__logo__img" src="images/logo.png" alt="logo"> -->
+
+                        <p class="form__logo__text">" Ne laisse jamais personne te dire ce dont tu es capable " Laurent G.</p>
+
+                        <!-- Croix de sortie du formulaire -->
+                        <i class="fa fa-times form__cross"></i>
+
+                    </div>
+
+                    <h3 class="formulaire__title">Je me connecte à "Share your book"</h3>
+
+                    <form class="formulaire" method="post">
+
+                            <div class="formulaire__id">
+                                <input class="formulaire__id__id" type="text" name="name" placeholder="Identifiant">
+                                <button class="formulaire__id__button" type="button" name="button">Valider</button>
+                            </div>
+
+                            <div class="formulaire__mdp">
+                                <input class="formulaire__mdp__mdp" type="password" name="name" placeholder="Mot de passe">
+                                <button class="formulaire__mdp__button" type="button" name="button">Annuler</button>
+                            </div>
+                    </form>
+
+            </div>
+
+            <h2 class="exchange">Alice T. me donne</h2>
+                <article class="contact">
+                    <i class="fa fa-handshake-o"></i>
+                     <img class="article__img" src="images/share.png" alt="photo don">
+
+                        <div class="contact__descriptif">
+                                <h2 class="contact__title">La fille de papier</h2>
+                                <h2 class="article__auteur">Guillaume Musso</h2>
+
+                            <p class="contact__text"> Je donne - Sans rien en échange</p>
+                        </div>
+                            <img class="contact__img" src="images/la fille.jpg" alt="photo de livre">
+
+                </article>
+
+                    <h2 class="contact__auteur">Je peux la contacter au 06 62 48 62 48 <br>  Adresse : 3 rue des patatas - 10101 Hex </h2>
+
+                        <div class="transaction">
+                            <h2 class="contact__auteur">Transaction effectuée</h2>
+
+                                <form class="transaction__check" action="index.html" method="get">
+                                    <input class="transaction__radio" type="radio" name="check" >Oui</>
+                                        <textarea class="transaction__textarea" name="name" rows="2" cols="70" placeholder="Commentaire" ></textarea>
+                                    <input class="transaction__radio" type="radio" name="check" >Non</>
+                                </form>
+                        </div>
+
+    </section>
+
+</main>
+
+    <footer class="footer">
+        <div class="footer__copyright">
+
+            <p class="footer__version"> Version 0.1.0 </p>
+            <p class="footer__team"> Hyperspace- oclock </p>
+            <p class="footer__date">&copy; 2018</p>
+
+
+        </div>
+    </footer>
+
+   <script type="text/javascript" src="js/vendor.js"></script>
+     <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+.nav__logo__img {
+    height: 110px;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+
+.nav__logo__img {
+  -moz-transition-duration:1s;
+  -moz-transition-timing-function:ease;
+  -webkit-transition-duration:1s;
+  -webkit-transition-timing-function:ease;
+  transition-duration:1s;
+  transition-timing-function:ease;
+}
+
+.nav__logo__img:hover {
+-moz-transform:rotate(360deg);
+-webkit-transform:rotate(360deg);
+transform:rotate(360deg);
+}

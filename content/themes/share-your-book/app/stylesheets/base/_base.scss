@@ -1,0 +1,27 @@
+html {
+  background-color: $background-body;
+}
+
+body {
+  display: flex;
+  font-family: 'Karma', serif;
+  margin: auto;
+  box-sizing: border-box;
+  width: $body-width;
+  overflow: wrap;
+}
+
+.section {
+  border: 0.2em solid $orange;
+  background-color: white;
+  padding: 2em;
+}
+
+.main {
+  margin-bottom: 7em;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}

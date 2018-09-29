@@ -1,0 +1,78 @@
+.section {
+  margin-top: 8em;
+  width: 52.50em;
+
+.article__auteur{
+  font-size: $article-title;
+  color: $orange;
+
+}
+&__h1 {
+  font-size: $citation-size;
+  text-align: left;
+}
+}
+
+.article {
+  display: flex;
+  margin: 1em 0 1em 0;
+  padding: 1em;
+  width: $article-width;
+  border: 0.2em solid $background-body;
+  transition: 0.7s;
+  box-shadow: -2px 2px 2px 1px grey;
+&:hover {
+  background-color: $background-body;
+  transition: 0.5s;
+}
+&__descriptif {
+  margin-right: 0.5em;
+}
+&__title {
+    font-size: $article-title;
+}
+&__img {
+  width: 20%;
+  height: 20%;
+  border: 0.1em solid $background-body;
+  margin-right: 2em;
+}
+}
+
+.don {
+    display: flex;
+    padding: 1em;
+    width: $article-width;
+    border: 0.25em dotted $orange;
+    justify-content: space-between;
+    transition: 0.7s;
+&:hover {
+  background-color: $background-body;
+  transition: 0.5s;
+  box-shadow: -2px 2px 2px 2px grey;
+
+}
+&__title {
+    font-size: $article-title;
+}
+&__img {
+    width: 20%;
+    height: 20%;
+    border: 0.1em solid $background-body;
+}
+.don__text {
+  width: 300px;
+  height: 30px;
+  color: white;
+  font-weight: bold;
+  color:$orange;
+}
+}
+
+.fa {
+  font-size: $fa;
+  color: $orange;
+  border-radius: 50%;
+  transform: rotate(-40deg);
+  margin-left: 1em;
+}

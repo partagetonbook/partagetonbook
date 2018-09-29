@@ -1,0 +1,46 @@
+.exchange {
+  border: 0.1em solid $orange;
+  width: 204px;
+  background-color: $orange;
+  padding: 0 0.2em ;
+}
+
+.contact {
+  display: flex;
+  margin-top: 1em;
+  border: 0.3em dotted $orange;
+  justify-content: space-around;
+& .fa {
+    margin-top:0.5em;
+  }
+&__img {
+  width: 20%;
+  height: 20%;
+  border: 0.1em solid $background-body;
+  margin-right: 2em;
+}
+&__auteur {
+    border: 0.1em solid $orange;
+    background-color: $orange;
+    padding: 0 0.2em ;
+    text-align: center;
+}
+}
+
+.transaction {
+  background-color: $orange;
+  padding: 0.5em 0 1em 0;
+
+&__check {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+&__radio {
+  color: white;
+  font-size: 2em;
+}
+&__textarea {
+  padding: 0.3em 0 0 0.5em;
+}
+}

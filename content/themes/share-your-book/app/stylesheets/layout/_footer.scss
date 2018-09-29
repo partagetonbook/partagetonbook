@@ -1,0 +1,28 @@
+.footer {
+  position: relative;
+}
+
+.footer__copyright {
+  position: absolute;
+  bottom: 6em;
+}
+.footer__version {
+  position: absolute;
+  top: 2em;
+  left: -50em;
+  color: $orange;
+}
+
+.footer__team {
+  position: absolute;
+  top: 2em;
+  left: -32em;
+  color: $orange;
+}
+
+.footer__date {
+    position: absolute;
+    top: 2em;
+    left: -10em;
+    color: $orange;
+}
